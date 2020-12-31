@@ -1,0 +1,31 @@
+/* Responsive */
+/* Ukuran tablet */
+@media screen and (max-width: 800px) {
+  .nav .nav-logo {
+    width: 20%;
+  }
+
+  .nav .nav-logo a {
+    font-size: 1.5em;
+  }
+
+  .nav .nav-list {
+    width: 80%;
+  }
+}
+
+/* Ukuran Hp */
+@media screen and (max-width: 700px) {
+  .nav .nav-list {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .nav .nav-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
